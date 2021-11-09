@@ -1,0 +1,12 @@
+.box {
+    border: calc(var(--radius) / 2);
+    border-radius: 5px;
+    background-image: url("https://wallpapercave.com/wp/wp3503092.jpg");
+    border-style: groove;
+    padding: 1.25rem;
+    margin: 3vh 3vw;
+}
+
+.box.main {
+    margin: 4vh 1vw;
+}
