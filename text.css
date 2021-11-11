@@ -1,4 +1,19 @@
+h1{
+    font-size: 2.50rem;
+    color: antiquewhite;
+    text-align: center;
+}
+
 h2{
     font-size: 1.75rem;
     color: antiquewhite;
+}
+
+table {
+    font-size: 1.50rem;
+    color: antiquewhite;
+    background-image: url("blob-scene-haikei.svg");
+    position: relative;
+    border-color: aquamarine;
+    border-style: groove;
 }
