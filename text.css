@@ -9,6 +9,20 @@ h2{
     color: antiquewhite;
 }
 
+h2:hover {
+  color: rgb(0, 225, 255);
+}
+
+h3{
+  font-size: 1.25rem;
+  color: antiquewhite;
+}
+
+h4{
+  font-size: 1.10rem;
+  color: antiquewhite;
+}
+
 table {
     font-size: 1.50rem;
     color: antiquewhite;
@@ -21,7 +35,7 @@ table {
 
 table:hover {
     color: aquamarine;
-    margin: 3vh 3vw;
+    margin: 5vh 5vw;
 }
 table:hover {
     animation-name: fade;
@@ -36,3 +50,33 @@ table:hover {
       opacity: 1;
     }
   }
+
+  p {
+    color: antiquewhite;
+    font-weight: 100;
+    font-size: 1.0rem;
+  }
+  
+  p:hover {
+    color: rgb(133, 247, 255);
+  }
+
+  li {
+    color: antiquewhite;
+  }
+
+  a {
+    color: antiquewhite;
+    text-decoration: none;
+  }
+
+a:hover {
+  color: rgb(95, 255, 188);
+  text-decoration: overline;
+}
+
+body {
+  background-image: url("blob-scene-haikei.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
