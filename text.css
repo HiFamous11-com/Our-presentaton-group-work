@@ -12,8 +12,27 @@ h2{
 table {
     font-size: 1.50rem;
     color: antiquewhite;
-    background-image: url("blob-scene-haikei.svg");
+    background-image: none);
     position: relative;
     border-color: aquamarine;
     border-style: groove;
+    margin: 4vh 4vw;
 }
+
+table:hover {
+    color: aquamarine;
+    margin: 3vh 3vw;
+}
+table:hover {
+    animation-name: fade;
+    animation-duration: 5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
