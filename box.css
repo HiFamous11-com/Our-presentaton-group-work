@@ -12,3 +12,12 @@
 .box.main {
     margin: 4vh 1vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .box {
+        padding: 1.0rem;
+        margin: 4vh 4vw;
+      transition: 300ms all ease-in-out;
+    }
+  }
+  
