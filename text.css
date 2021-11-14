@@ -82,6 +82,10 @@ table:hover {
     color: antiquewhite;
   }
 
+  li:hover {
+    color: aqua;
+  }
+
   a {
     color: antiquewhite;
     text-decoration: none;
@@ -142,7 +146,7 @@ button:hover::after {
 .button:hover {
   background-color: rgb(1, 0, 59);
   color: rgb(0, 217, 255);
-  transition: 300ms all ease-in-out;
+  transition: 200ms all ease-in-out;
   border-color: chartreuse;
 }
 
