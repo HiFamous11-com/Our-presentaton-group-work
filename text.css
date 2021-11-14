@@ -125,8 +125,8 @@ button:hover::after {
   transition: 300ms all ease-in-out;
 }
 
-@media only screen and (max-width: 1043px) {
-  body {
+@media only screen and (max-width: 920px) {
+  table {
     display: none;
   }
 }

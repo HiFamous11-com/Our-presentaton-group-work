@@ -20,4 +20,10 @@
       transition: 300ms all ease-in-out;
     }
   }
+
+  @media only screen and (max-width: 920px) {
+    .box {
+      margin: 4.5vh 4.5vw;
+    }
+  }
   
