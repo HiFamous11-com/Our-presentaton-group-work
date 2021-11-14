@@ -133,6 +133,11 @@ button:hover::after {
     
   }
 }
+@media only screen and (max-width: 1043px;) {
+  body {
+    display: none;
+  }
+}
 
 .button {
   background-color: darkblue;
