@@ -99,7 +99,6 @@ table:hover {
 
 a:hover {
   color: rgb(95, 255, 188);
-  text-decoration: overline;
 }
 
 body {
@@ -135,6 +134,22 @@ button:hover::after {
   table {
     display: none;
   }
+
+  .button-nav {
+    padding: 0.3px 10px;
+  }
+}
+
+.button-nav {
+  background-color: darkblue;
+  color: antiquewhite;
+  padding: 0.5px 15px;
+  text-align: center;
+  transition: 300ms all ease-in-out;
+  font-size: 10px;
+  border-radius: 8px;
+  border-color: antiquewhite;
+  border-style: groove;
 }
 
 .button {
