@@ -307,3 +307,14 @@ button:hover::after {
     opacity: 1;
   }
 }
+
+@media only screen and (max-width: 921px) and (min-width: 500px) {
+  body {
+    background-image: url("wavy.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .p-display {
+    display: none;
+  }
+}
