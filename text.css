@@ -36,43 +36,8 @@ table {
     position: relative;
     border-color: aquamarine;
     border-style: groove;
-    margin: 4vh 4vw;
-}
-
-table:hover {
-    color: aquamarine;
     margin: 5vh 5vw;
 }
-table:hover {
-    animation-name: fade;
-    animation-duration: 5s;
-    transition: 300ms all ease-in-out;
-  }
-  
-  @keyframes fade {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  table:hover::after {
-    animation-name: fade;
-    animation-duration: 5s;
-    transition: 300ms all ease-in-out;
-  }
-  
-  @keyframes fade {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-  }
 
   p {
     color: antiquewhite;
