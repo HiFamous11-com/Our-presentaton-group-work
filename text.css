@@ -103,6 +103,10 @@ button:hover::after {
   .button-nav {
     padding: 0.3px 10px;
   }
+
+  .img {
+    display: none;
+  }
 }
 
 .button-nav {
@@ -156,4 +160,8 @@ button:hover::after {
 
 .button-vertical-group {
   display: block;
+}
+
+.img {
+  
 }
