@@ -308,11 +308,29 @@ button:hover::after {
   }
 }
 
-@media only screen and (max-width: 921px) and (min-width: 500px) {
+@media only screen and (max-width: 921px) and (min-width: 499px) {
   body {
     background-image: url("wavy.svg");
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  li {
+    margin: 3vh 3vw;
+  }
+  .p-display {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 706px) and (min-width: 499px) {
+  body {
+    background-image: url("wavy.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  li {
+    margin: 3vh 3vw;
+    display: contents;
   }
   .p-display {
     display: none;
