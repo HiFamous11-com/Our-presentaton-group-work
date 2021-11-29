@@ -107,6 +107,7 @@ body {
   background-image: url("blob-scene-haikei.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 button {
@@ -185,7 +186,7 @@ button:hover::after {
   body {
     background-image: url("blob-scene-haikei.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-attachment: cover;
   }
 }
 
